@@ -5,7 +5,7 @@ function getListStudentIds(students) {
     }
 
     // Use map to create an array of ids
-    return students.map(student => student.id);
+    return students.map((student) => (student.id));
 }
 
 export default getListStudentIds;
